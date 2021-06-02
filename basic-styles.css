@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container-0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Odibee Sans", cursive;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container-1 > div {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 10px 10px 8px #888888;
+  cursor: pointer;
+}
+
+h3 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-size: cover;
+  color: white;
+}
+
+.colorado {
+  background-image: url(/Images/colorado.jpg);
+}
+
+.arizona {
+  background-image: url(/Images/arizona.jpg);
+}
+
+.utah {
+  background-image: url(/Images/utah.jpg);
+}
+
+.idaho {
+  background-image: url(/Images/idaho.jpg);
+}
+
+.wyoming {
+  background-image: url(/Images/wyoming.jpg);
+}
+
+.montana {
+  background-image: url(/Images/montana.jpg);
+}
+
+.california {
+  background-image: url(/Images/california.jpg);
+}
+
+.newyork {
+  background-image: url(/Images/newyork.jpg);
+}
+
+.lasvegas {
+  background-image: url(/Images/lasvegas.jpg);
+}
+
+.washingtondc {
+  background-image: url(/Images/washingtondc.jpg);
+}
+
+.miami {
+  background-image: url(/Images/miami.jpg);
+}
+
+.seattle {
+  background-image: url(/Images/seattle.jpg);
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+.box:hover {
+  top: -1px;
+  right: 1px;
+  position: relative;
+  opacity: 0.75;
+}
